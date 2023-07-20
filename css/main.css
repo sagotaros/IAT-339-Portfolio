@@ -19,7 +19,7 @@ html{
   }
   
   .body{
-    padding: 1.1rem 2rem 1.01rem 2rem;
+    padding: 1.1rem 10rem 1.01rem 10rem;
   
   }
   
@@ -181,7 +181,6 @@ html{
   
   p {
     max-width:50%;
-    text-align: center;
     margin-top: 0;
   }
   
@@ -326,3 +325,9 @@ html{
     max-width: 25%;
   }
 
+  .scroll-container {
+    background-color: #649BCD;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 2em;
+  }
