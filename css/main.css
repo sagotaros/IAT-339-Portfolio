@@ -180,7 +180,8 @@ html{
   }
   
   p {
-    max-width:30rem;
+    max-width:50%;
+    text-align: center;
     margin-top: 0;
   }
   

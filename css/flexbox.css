@@ -167,7 +167,13 @@
 }
 
 .current-page{
-    color:#F27EB1;
+    text-decoration: underline;
+    text-decoration-color: #E34934;
+    text-underline-offset: 0.5em;
+}
+
+.box > .work-display{
+    flex: 50%;
 }
 
 .project{
