@@ -5,8 +5,8 @@ html{
   body{
     font-family: "Karla";
     margin:1rem;
-    color: #313639;
-    background-color: #F6F5EC;
+    color: #2d2a26;
+    background-color: white;
     overflow-x: hidden;
     display: flex;
     flex-direction: column;
@@ -49,7 +49,7 @@ html{
   
   
   .color1{
-    background-color: #FFF1DB;
+    background-color: #E8F2F5;
   
     border:#313639;
     border-style: solid;
@@ -57,7 +57,7 @@ html{
   }
   
   .color2{
-    background-color: #313639;
+    background-color: #2d2a26;
     color:white;
   
     border:#313639;
@@ -66,7 +66,7 @@ html{
   }
   
   .color3{
-    background-color: #F6F5EC;
+    background-color: white;
   
     border:#313639;
     border-style: solid;
@@ -75,7 +75,7 @@ html{
   
   .color4{
   
-    background-color: #F27EB1;
+    background-color: #649BCD;
     border:#313639;
     border-style: solid;
     max-width: 33.33%;
@@ -83,7 +83,7 @@ html{
   
   .color5{
   
-    background-color: #6C6D9B;
+    background-color: #2270b8;
     border:#313639;
     border-style: solid;
     max-width: 33.33%;
@@ -91,7 +91,7 @@ html{
   
   .color6{
   
-    background-color: #F9B3BB;
+    background-color: #E34934;
     border:#313639;
     border-style: solid;
     max-width: 33.33%;
@@ -185,12 +185,12 @@ html{
   }
   
   a{
-    color:#6C6D9B;
+    color: #2270b8;
     text-decoration: none;
   }
   
   a:hover, a:focus, a:active{
-    color:#F27EB1;
+    color:#649BCD;
     transform: scale(1.05);
     transition: color 0.5s ease-out;
   }
@@ -299,22 +299,18 @@ html{
   
   input, textarea{
     border-radius: 2px;
-    padding: 1%;
+    padding: 0.5em;
     margin: 5%;
+    background-color: #E8F2F5;
   }
   
-  input:hover, input:focus, textarea:hover, textarea:focus{
-    background-color: #FFF1DB;
-  }
   
   select{
     border-radius: 2px;
-    padding: 1%;
+    padding: 0.5em;
+    background-color: #E8F2F5;
   }
   
-  select:hover{
-    background-color: #FFF1DB;
-  }
   
   
   .card-info label{
@@ -331,7 +327,7 @@ html{
     cursor: pointer;
     font-weight: bold;
     padding:10px 20px;
-    
+    border-radius: 30px;
   }    
   /*https://www.w3schools.com/css/css3_buttons.asp*/
   .checkout .button:hover,.checkout .button:focus,.checkout .button:active{
