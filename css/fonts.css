@@ -1,0 +1,27 @@
+@font-face{
+    font-family: "Rubik";
+    font-weight: normal;
+    font-style: normal;
+    src: url(../fonts/Rubik-Regular.ttf)
+}
+
+@font-face{
+    font-family: "Rubik";
+    font-weight: bold;
+    font-style: normal;
+    src: url(../fonts/Rubik-Bold.ttf)
+}
+
+@font-face {
+    font-family: "Karla";
+    font-weight: normal;
+    font-style: normal;
+    src: url(../fonts/Karla-Regular.ttf);
+}
+
+@font-face{
+    font-family: "Karla";
+    font-weight: bold;
+    font-style: normal;
+    src: url(../fonts/Karla-Bold.ttf)
+}

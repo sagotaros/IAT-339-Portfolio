@@ -1,0 +1,365 @@
+html{
+    scroll-behavior: smooth;
+  }
+  
+  body{
+    font-family: "Karla";
+    margin:1rem;
+    color: #313639;
+    background-color: #F6F5EC;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .center{
+    text-align: center;
+    margin-bottom: 2em;
+  }
+  
+  .body{
+    padding: 1.1rem 2rem 1.01rem 2rem;
+  
+  }
+  
+  h1, h2, h3, h4{
+    font-family: "Rubik";
+  }
+  
+  
+  legend{
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .element {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-top-width: 0.15rem;
+    border-top-style: solid;
+    border-top-color: black;
+  }
+  
+  .colours .box{
+    max-width: 40%;
+    flex-wrap: wrap;
+  }
+  
+  
+  .color1{
+    background-color: #FFF1DB;
+  
+    border:#313639;
+    border-style: solid;
+    max-width: 33.33%;
+  }
+  
+  .color2{
+    background-color: #313639;
+    color:white;
+  
+    border:#313639;
+    border-style: solid;
+    max-width: 33.33%;
+  }
+  
+  .color3{
+    background-color: #F6F5EC;
+  
+    border:#313639;
+    border-style: solid;
+    max-width: 33.33%;
+  }
+  
+  .color4{
+  
+    background-color: #F27EB1;
+    border:#313639;
+    border-style: solid;
+    max-width: 33.33%;
+  }
+  
+  .color5{
+  
+    background-color: #6C6D9B;
+    border:#313639;
+    border-style: solid;
+    max-width: 33.33%;
+  }
+  
+  .color6{
+  
+    background-color: #F9B3BB;
+    border:#313639;
+    border-style: solid;
+    max-width: 33.33%;
+  }
+  
+  
+  
+  
+  /*https://www.w3schools.com/css/css_image_transparency.asp*/
+  img{
+    width:30rem;
+    max-width: 100%;
+    opacity: 1;
+    transition: opacity .5s ease-in-out;
+  }
+  
+  .product img:hover, .cart-icon:hover{
+    opacity: 0.70;
+    transform: scale(1.05);
+  }
+  
+  
+  .cover-photo{
+    max-width: 100%;
+    position: relative;
+  }
+  
+  .cover-photo img{
+    width: 100%;
+    height: auto;
+    opacity: 95%;
+    object-fit: cover;
+  }
+  
+  .cover-photo h1{
+    color:white;
+  }
+  
+  
+  .centered{
+    position:absolute;
+    top: 50%;
+    bottom: 50%;
+    left:10%;
+    right:10%;
+    text-align: center;
+    color: white;
+  }
+  
+  .centered a{
+    z-index: 15;
+  }
+  
+  .centered > h1{
+    font-size: 4rem;
+  }
+  
+  @media (max-width:1034px){
+    .centered > h1{
+      font-size: 2rem;
+    }
+  }
+  
+  .cart-icon{
+    width:2.5rem;
+    max-width: 100%;
+  }
+  
+  .image-box{
+    width:15%;
+    max-width: 100%;
+  }
+  
+  
+  
+  h2.general {
+    margin-top: 6rem;
+  }
+  
+  h3 {
+    margin-top: 1rem;
+  }
+  
+  h4 {
+    margin-bottom: 0.25rem;
+  }
+  
+  p {
+    max-width:30rem;
+    margin-top: 0;
+  }
+  
+  a{
+    color:#6C6D9B;
+    text-decoration: none;
+  }
+  
+  a:hover, a:focus, a:active{
+    color:#F27EB1;
+    transform: scale(1.05);
+    transition: color 0.5s ease-out;
+  }
+  
+  nav{
+    flex:1;
+    font-size:1.25rem;
+    text-align: right;
+    margin:auto 0;
+  }
+  
+  nav ul{
+    display:inline-block;
+    list-style-type: none;
+  }
+  
+  nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  #citations{
+    max-width:100%;
+    word-wrap: break-word;
+  }
+  
+  .button{
+    text-decoration: none;
+    padding: 0.6rem;
+    font-size: 1.5rem;
+    transition: background-color 0.5s ease-out;
+    background: #6C6D9B;
+    border: 0;
+    color:white;
+    cursor: pointer;
+    font-weight: bolder;
+    padding:15px 20px;
+    border-radius: 0.1em;
+  }
+  
+  .cart-items{
+    justify-content: space-between;
+    display:flex;
+    align-items: center;
+    margin-bottom: 2em;
+    text-align: center;
+  }
+  
+  
+  
+  .details{
+    font-size: 1.2rem;
+    font-weight: bold;
+    max-width: 30%;
+  }
+  
+  .total-price{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: right;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .amount{
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .price{
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .button:hover, .button:focus, .button:active{
+    background-color: #F27EB1;
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 10px 10px 0 0px #313639;
+    transition-duration: 0.3s;
+    transition-property: box-shadow;
+    color:white;
+    text-decoration: none;
+  }
+  
+  nav a:hover, nav a:focus {
+    text-decoration: none;
+  }
+  
+  
+  code {
+    background-color: #EEE;
+    padding: 0.5rem;
+    display: block;
+  }
+  
+  form{
+    overflow:hidden;
+  
+  }
+  
+  fieldset{
+    border:0;
+    margin:0;
+    padding:0;
+  }
+  
+  input, textarea{
+    border-radius: 2px;
+    padding: 1%;
+    margin: 5%;
+  }
+  
+  input:hover, input:focus, textarea:hover, textarea:focus{
+    background-color: #FFF1DB;
+  }
+  
+  select{
+    border-radius: 2px;
+    padding: 1%;
+  }
+  
+  select:hover{
+    background-color: #FFF1DB;
+  }
+  
+  
+  .card-info label{
+    color: black;
+    display: block;
+    font-weight: bold;
+  
+  }
+  
+  .checkout .button{
+    background: #6C6D9B;
+    border: 0;
+    color:white;
+    cursor: pointer;
+    font-weight: bold;
+    padding:10px 20px;
+    
+  }    
+  /*https://www.w3schools.com/css/css3_buttons.asp*/
+  .checkout .button:hover,.checkout .button:focus,.checkout .button:active{
+    background-color: #F27EB1;
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 10px 10px 0 0px #313639;
+    transition-duration: 0.3s;
+    transition-property: box-shadow;
+    color:white;
+    text-decoration: none;
+  }
+  
+  
+  .button-nav {
+    display: inline-block;
+    padding: 0.5rem;
+    color: white;
+    background-color: rgb(50,50,50);
+    text-decoration: none;
+    transition-property: background-color; 
+    transition-duration: 0.5s;
+  }
+  
+  .button-nav:hover, .button-nav:focus {
+    background-color: rgb(200,200,200);
+  }
+  
+  .pics{ 
+    max-width: 25%;
+  }
+  
