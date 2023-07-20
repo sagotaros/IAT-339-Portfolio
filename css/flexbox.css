@@ -7,6 +7,8 @@
     width: 100%;
     margin-bottom: 1em;
     justify-content:space-around;
+    padding-left: 10rem;
+    padding-right: 10rem;
 }
 
 .flex-box{
@@ -124,13 +126,13 @@
 
 .box{
     display: flex;
-    justify-content: space-around;
+    justify-content:center;
     flex-wrap: wrap;
     flex-direction: row;
 }
 
 @media (max-width:747px){
-    .box > .product{
+    .box > .project{
         flex: 50%;
     }
 
@@ -168,12 +170,26 @@
     color:#F27EB1;
 }
 
-.product{
-    flex: 0 1 24%;
+.project{
+    flex: 0 1 25%;
     margin-bottom: 5%;
+    text-align: center;
 }
 
-.product-description{
+.project img{
+    border: #649BCD;
+    border-style: solid;
+    border-width: 0.5em;
+    max-width: 50%;
+    max-height: auto;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+.project-description{
     min-width: 300px;
 }
 
@@ -214,7 +230,7 @@
     margin-bottom: 1.5rem;
 }
 
-.product-description img{
+.project-description img{
     max-width: 100%;
 }
 
@@ -332,41 +348,4 @@
     display: block;
     text-align: center;
     margin: 1em;
-}
-
-.comments{
-    display: flex;
-    flex-wrap: nowrap;
-    background-color: #FFF1DB;
-    justify-content:flex-start;
-    padding: 1em;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    width:100%;
-    border-color: #6C6D9B;
-    border-style: solid;
-    border-width: 0.15em;
-}
-
-.comments img{
-    border-radius: 50%;
-
-    height: auto;
-    text-align: center;
-}
-
-.comments div{
-    margin: 1em;
-}
-
-.comments-img{
-    width:15%;
-}
-
-.comments-text{
-    width:80%;
-}
-
-.comments-text p{
-    max-width: 100%;
 }

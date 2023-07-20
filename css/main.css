@@ -108,7 +108,7 @@ html{
     transition: opacity .5s ease-in-out;
   }
   
-  .product img:hover, .cart-icon:hover{
+  .project img:hover, .cart-icon:hover{
     opacity: 0.70;
     transform: scale(1.05);
   }
@@ -314,8 +314,6 @@ html{
     background-color: #E8F2F5;
   }
   
-  
-  
   .card-info label{
     color: black;
     display: block;
@@ -326,4 +324,4 @@ html{
   .pics{ 
     max-width: 25%;
   }
-  
+
