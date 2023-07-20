@@ -222,14 +222,25 @@ html{
     padding: 0.6rem;
     font-size: 1.5rem;
     transition: background-color 0.5s ease-out;
-    background: #6C6D9B;
+    background: #2270b8;
     border: 0;
     color:white;
     cursor: pointer;
     font-weight: bolder;
     padding:15px 20px;
-    border-radius: 0.1em;
+    border-radius: 40px;
   }
+
+  .button:hover, .button:focus, .button:active{
+    background-color: #649BCD;
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 10px 10px 0 0px #313639;
+    transition-duration: 0.3s;
+    transition-property: box-shadow;
+    color:white;
+    text-decoration: none;
+  }
+
   
   .cart-items{
     justify-content: space-between;
@@ -265,15 +276,7 @@ html{
     font-weight: bold;
   }
   
-  .button:hover, .button:focus, .button:active{
-    background-color: #F27EB1;
-    transform: perspective(1px) translateZ(0);
-    box-shadow: 10px 10px 0 0px #313639;
-    transition-duration: 0.3s;
-    transition-property: box-shadow;
-    color:white;
-    text-decoration: none;
-  }
+
   
   nav a:hover, nav a:focus {
     text-decoration: none;
@@ -319,42 +322,7 @@ html{
     font-weight: bold;
   
   }
-  
-  .checkout .button{
-    background: #6C6D9B;
-    border: 0;
-    color:white;
-    cursor: pointer;
-    font-weight: bold;
-    padding:10px 20px;
-    border-radius: 30px;
-  }    
-  /*https://www.w3schools.com/css/css3_buttons.asp*/
-  .checkout .button:hover,.checkout .button:focus,.checkout .button:active{
-    background-color: #F27EB1;
-    transform: perspective(1px) translateZ(0);
-    box-shadow: 10px 10px 0 0px #313639;
-    transition-duration: 0.3s;
-    transition-property: box-shadow;
-    color:white;
-    text-decoration: none;
-  }
-  
-  
-  .button-nav {
-    display: inline-block;
-    padding: 0.5rem;
-    color: white;
-    background-color: rgb(50,50,50);
-    text-decoration: none;
-    transition-property: background-color; 
-    transition-duration: 0.5s;
-  }
-  
-  .button-nav:hover, .button-nav:focus {
-    background-color: rgb(200,200,200);
-  }
-  
+     
   .pics{ 
     max-width: 25%;
   }
