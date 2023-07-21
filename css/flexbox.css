@@ -56,6 +56,10 @@
         transition: transform 350ms ease-out;
     }
 
+    .body{
+        padding: 1.1rem 2rem 1.01rem 2rem;
+      }
+
     .flex-box{
         flex-direction: column;
     }
@@ -167,7 +171,7 @@
 
 .current-page{
     text-decoration: underline;
-    text-decoration-color: #E34934;
+    text-decoration-color: #F684C4;
     text-underline-offset: 0.5em;
 }
 
@@ -267,7 +271,7 @@
 }
 
 .footer{
-    background-color:  #2270b8;
+    background-color:  #649BCD;
     padding: 1rem;
     margin-top: auto;
     width: 100%;
@@ -288,7 +292,7 @@
 }
   
 .footer-links a:hover, .footer-links a:focus{
-    color: #649BCD;
+    color: #2270b8;
 }
 
 .footer-text p{
