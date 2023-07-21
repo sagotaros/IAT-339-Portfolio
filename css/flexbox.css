@@ -335,13 +335,14 @@
     margin: 1em auto 1em auto;
 }
 
-.form-container input[type="radio"]{
+ input[type="radio"]{
     margin:0.5em;
-    accent-color: #F27EB1;
+    accent-color: #649BCD;
     width: 1.1em;
     height: 1.1em;
-    border-radius: 60%;
+    border-radius: 50%;
     transform: translateY(0.3em);
+    
 }
 
 .form-container select{
