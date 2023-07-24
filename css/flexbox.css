@@ -88,6 +88,10 @@
         right:2rem;
     }
 
+    .description-text{
+        padding: 0 !important;
+    }
+
     .centered > h1{
         font-size: 2.5rem;
       }
@@ -358,4 +362,13 @@
     display: block;
     text-align: center;
     margin: 1em;
+}
+
+.description-text{
+    padding: 3em 8em 3em 8em;
+}
+
+.description-text p{
+    max-width: 100%;
+
 }
