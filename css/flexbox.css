@@ -16,6 +16,10 @@
     flex-wrap:wrap;
 }
 
+.flex-box div{
+    margin-right: 5em;
+}
+
 .flex-box label{ 
     margin-bottom: 1em;
 }
@@ -59,10 +63,6 @@
     .body{
         padding: 1.1rem 2rem 1.01rem 2rem;
       }
-
-    .flex-box{
-        flex-direction: column;
-    }
 
     .nav-items[data-visible="true"]{
         transform: translateX(0%);
@@ -365,10 +365,14 @@
 }
 
 .description-text{
-    padding: 3em 8em 3em 8em;
+    padding: 3em 7em 3em 7em;
 }
 
 .description-text p{
     max-width: 100%;
+    font-size: large;
+}
 
+.description-text img{
+    text-align: center;
 }
