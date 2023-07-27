@@ -184,7 +184,7 @@
 }
 
 .project{
-    flex: 0 1 25%;
+    flex: 0 1 50%;
     margin-bottom: 5%;
     text-align: center;
 }
@@ -194,9 +194,8 @@
     border-style: solid;
     border-width: 0.5em;
     max-width: 50%;
-    max-height: auto;
-    width: 100%;
-    height: 100%;
+    width: 70%;
+    height: 70%;
     object-fit: cover;
 }
 
@@ -376,3 +375,4 @@
 .description-text img{
     text-align: center;
 }
+
