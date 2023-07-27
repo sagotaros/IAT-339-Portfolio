@@ -376,3 +376,8 @@
     text-align: center;
 }
 
+.half-size img{
+    width:200px;
+    height:auto;
+}
+
