@@ -133,9 +133,13 @@
 
 .box{
     display: flex;
-    justify-content:center;
-    flex-wrap: wrap;
+    justify-content:space-around;
     flex-direction: row;
+}
+
+
+.box p{
+    max-width: 100% !important;
 }
 
 @media (max-width:747px){
@@ -185,7 +189,8 @@
 
 .project{
     flex: 0 1 50%;
-    margin-bottom: 5%;
+    margin-bottom: 0.5em;
+    margin-top: 2em;
     text-align: center;
 }
 
@@ -364,7 +369,7 @@
 }
 
 .description-text{
-    padding: 3em 7em 3em 7em;
+    padding: 1.5em 7em 1.5em 7em;
 }
 
 .description-text p{
@@ -381,3 +386,12 @@
     height:auto;
 }
 
+.icons i{
+    padding: 0 0.5em 0 0.5em;
+    font-size: 2.5em;
+}
+
+.smaller-img img{
+    width: 40%;
+    height: auto;
+}
