@@ -51,7 +51,7 @@ body{
     width:30rem;
     max-width: 100%;
     opacity: 1;
-    transition: opacity .5s ease-in-out;
+    transition: .5s ease-in-out;
   }
   
   .project img:hover, .cart-icon:hover{
@@ -277,3 +277,20 @@ body{
     white-space: nowrap;
     padding: 2em;
   }
+
+.intro1{
+  font-size: 2rem;
+  text-align: center;
+  max-width: 100%;
+  font-weight: bolder;
+  margin-bottom: -0.5em;
+}
+.intro2{
+  font-size: 4rem;
+  color: #2270b8;
+}
+
+.self-intro{
+  margin-bottom:10%;
+  margin-top: 10%;
+}
