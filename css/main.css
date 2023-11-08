@@ -304,6 +304,6 @@ body{
 }
 
 .card-img-top{
-  height:15vw;
+  height: 25em;
   object-fit: cover;
 }
