@@ -294,3 +294,16 @@ body{
   margin-bottom:10%;
   margin-top: 10%;
 }
+
+.card{
+  transition: all 0.3s;
+}
+
+.card:hover{
+  transform: scale(1.05);
+}
+
+.card-img-top{
+  height:15vw;
+  object-fit: cover;
+}
