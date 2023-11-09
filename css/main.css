@@ -24,6 +24,10 @@ body{
   .body{
     padding: 1.1rem 15vw 1.01rem 15vw;
   }
+
+  .header{
+    padding: 1.1rem 5vw 1.01rem 5vw;
+  }
   
   h1, h2, h3, h4, h5{
     font-family: "Rubik";
@@ -48,7 +52,14 @@ body{
   
   /*https://www.w3schools.com/css/css_image_transparency.asp*/
   img{
-    width:30rem;
+    width:50rem;
+    max-width: 100%;
+    opacity: 1;
+    transition: .5s ease-in-out;
+  }
+
+  .smaller > img{
+    width:20rem;
     max-width: 100%;
     opacity: 1;
     transition: .5s ease-in-out;
