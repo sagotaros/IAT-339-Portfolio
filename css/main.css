@@ -59,7 +59,7 @@ body{
   }
 
   .smaller > img{
-    width:20rem;
+    width:29rem;
     max-width: 100%;
     opacity: 1;
     transition: .5s ease-in-out;
