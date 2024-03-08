@@ -329,3 +329,10 @@ body{
   opacity: 1;
   transform: none;
 }
+
+.demo-video video{
+  display: block;
+  height: auto;
+  width: 100%;
+  margin-bottom: 2rem;
+}
